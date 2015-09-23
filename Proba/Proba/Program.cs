@@ -11,6 +11,7 @@ namespace Proba
         static void Main(string[] args)
         {
             Console.WriteLine("dsa");
+            Console.WriteLine("Proba");
         }
     }
 }
