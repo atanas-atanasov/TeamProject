@@ -12,6 +12,8 @@ namespace Proba
         {
             Console.WriteLine("dsa");
             Console.WriteLine("Proba");
+            int proba = 5;
+            Console.WriteLine(proba);
         }
     }
 }
