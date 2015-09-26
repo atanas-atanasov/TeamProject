@@ -11,7 +11,7 @@
         <div>
             <asp:Label Text="Date" runat="server" />
             <br />
-            <asp:TextBox runat="server" ID="dateText" />
+            <asp:TextBox runat="server" ID="dateText" TextMode="Date" />
             <br />
             <br />
             <asp:Label Text="Product" runat="server" />
@@ -21,7 +21,7 @@
             <br />
             <asp:Label Text="Price" runat="server" />
             <br />
-            <asp:TextBox runat="server" ID="priceText" />
+            <asp:TextBox runat="server" ID="priceText" TextMode="Number" />
             <br />
             <asp:Button Text="Add" runat="server" ID="add" OnClick="add_Click" />
             <br />
@@ -33,7 +33,7 @@
                 <asp:ListItem Text="Year" />
             </asp:DropDownList>
             <asp:Button Text="Calculate" id="calcBtn" runat="server" OnClick="calcBtn_Click" />
-            <asp:Label Text="sss" ID="result" runat="server" />
+            <asp:Label Text="" ID="result" runat="server" />
         </div>
     </form>
 </body>
