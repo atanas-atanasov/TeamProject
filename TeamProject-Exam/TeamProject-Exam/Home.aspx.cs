@@ -13,5 +13,15 @@ namespace TeamProject_Exam
         {
 
         }
+
+        protected void import_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        protected void calcBtn_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
