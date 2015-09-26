@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Proba", "Proba\Proba.csproj", "{2A7FF2D1-43E0-4549-8A5A-76255006ACA5}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamProject-Exam", "TeamProject-Exam\TeamProject-Exam.csproj", "{E6DC4130-6F20-437A-89A3-B7489AF125BE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2A7FF2D1-43E0-4549-8A5A-76255006ACA5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2A7FF2D1-43E0-4549-8A5A-76255006ACA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2A7FF2D1-43E0-4549-8A5A-76255006ACA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2A7FF2D1-43E0-4549-8A5A-76255006ACA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6DC4130-6F20-437A-89A3-B7489AF125BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6DC4130-6F20-437A-89A3-B7489AF125BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6DC4130-6F20-437A-89A3-B7489AF125BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6DC4130-6F20-437A-89A3-B7489AF125BE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
