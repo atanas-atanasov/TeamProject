@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -11,10 +12,13 @@ namespace TeamProject_Exam
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            using (StreamReader reader = new StreamReader("Data.txt"))
+            {
+            }
 
         }
 
-        protected void import_Click(object sender, EventArgs e)
+        protected void add_Click(object sender, EventArgs e)
         {
 
         }
