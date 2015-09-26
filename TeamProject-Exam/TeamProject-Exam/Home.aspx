@@ -9,6 +9,8 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:Label Text="" runat="server" ID="onLoad" />
+            <br />
             <asp:Label Text="Date" runat="server" />
             <br />
             <asp:TextBox runat="server" ID="dateText" TextMode="Date" />

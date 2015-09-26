@@ -13,10 +13,18 @@ namespace TeamProject_Exam
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            try
+            {
                 using (StreamReader reader = new StreamReader(ConfigurationManager.AppSettings["FilePath"]))
                 {
                 }
+                onLoad.Text = "Welcome!";
+            }
+            catch (Exception)
+            {
+                onLoad.Text="File not loaded!";
+            }
+
 
 
 
